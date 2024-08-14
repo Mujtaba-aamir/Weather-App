@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.navbar
+{
+    width: 100wh;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+   list-style: none; 
+    background-color: rgb(2, 41, 75);
+    border-radius: 6px;
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+
+}
+.list-item:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.container
+{
+    background:linear-gradient(135deg, #00feba, #5b548a);
+    width: 220px;
+    padding: 23px;
+    border-radius: 22px;
+    margin-top: -55px;
+}
+.srchbar
+{
+    width: 55%;
+    height: 25px;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 35px;
+    padding: 8px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    right: 10px;
+
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#searchbutton
+{
+    width: 35%;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+#WeatherView
+{
+    width: 50%;    
+}
+.view
+{
+    display: flex;
+    justify-content: center;
+}
+p
+{
+    color: white;
+    text-align: center;
+}
+.temp
+{
+    font-size: 45px;
+}
+.city
+{
+    font-size: 26px;
+}
+.extrainfo
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#WeatherHumidity
+{
+    width: 30px;
+    height: 27px;
+    margin-top: 5px;
+}
+#WeatherWind
+{
+    width: 30px;
+    height: 27px;
+    margin-top: 5px;
+}
+.humidity
+{
+    display: flex;
+    gap:2px;
+}
+.wind
+{
+    display: flex;
+    gap:2px;
+}
+.text1
+{
+    font-size:20px ;
+    font-weight: lighter;
+}
+.text2
+{
+    font-size:20px ;
+    font-weight: lighter;
+}
+.name
+{
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+.block
+{
+    display: none;
+}
+.invalid
+{
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+    display: none;
+}

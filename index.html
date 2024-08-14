@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body style="background-color: rgb(248, 53, 85)">
+    <nav class="navbar">
+      <li class="list-item">Home</li>
+      <li class="list-item">Latest</li>
+      <li class="list-item">Contact</li>
+      <li class="list-item">About Us</li>
+    </nav>
+    <div class="center">
+      <div class="container">
+        <div class="search">
+          <input type="text" class="srchbar" placeholder="Enter City Name" />
+          <button><img src="search.png" alt="" id="searchbutton" /></button>
+        </div>
+        <div class="error">
+          <p class="invalid">Invalid City Name</p>
+        </div>
+        <div class="block">
+          <div class="view">
+            <img src="rain.png" alt="" id="WeatherView" />
+          </div>
+          <p class="temp">21°C</p>
+          <p class="city">New York</p>
+          <div class="extrainfo">
+            <div class="humidity">
+              <img src="humidity.png" alt="" id="WeatherHumidity" />
+              <div class="humiditytext">
+                <p class="text1">78%</p>
+                <p class="name">Humidity</p>
+              </div>
+            </div>
+            <div class="wind">
+              <img src="wind.png" alt="" id="WeatherWind" />
+              <div class="Windtext">
+                <p class="text2">40 km/h</p>
+                <p class="name">Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
